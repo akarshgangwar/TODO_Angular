@@ -18,6 +18,9 @@ onaddclick(){
   
   }
   }
+  Ondelete(i:number){
+    this.taskList.splice(i,1);
+  }
 
   title = 'todo';
 }
