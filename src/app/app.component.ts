@@ -9,5 +9,15 @@ export class AppComponent {
 task:string="";
 taskList:string[]=[];
 
+
+onaddclick(){
+  if(this.task!='')
+  {
+    this.taskList.push(this.task)
+    this.task="";
+  
+  }
+  }
+
   title = 'todo';
 }
